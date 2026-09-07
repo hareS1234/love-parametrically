@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Newsreader';
+  src: url('/fonts/Newsreader-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Newsreader';
+  src: url('/fonts/Newsreader-Italic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 200 800;
+  font-display: swap;
+}
+
+:root {
+  --paper: #f3eddf;
+  --paper-raised: #f9f4e9;
+  --paper-shadow: #ded4c3;
+  --ink: #322824;
+  --ink-muted: #6d6258;
+  --oxblood: #7b293e;
+  --rose: #c98799;
+  --petal-blush: #ebc2c5;
+  --petal-light: #f5dede;
+  --sage: #77846a;
+  --stem: #536249;
+  --pollen: #bb8b42;
+  --rule: #d8cdbb;
+  --focus: #7b293e;
+  --radius-control: 0;
+  --radius-sheet: 0;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+}
+
+* { box-sizing: border-box; }
+html { color: var(--ink); background: var(--paper); font-family: Arial, Helvetica, sans-serif; }
+body { margin: 0; min-width: 320px; min-height: 100vh; background: var(--paper) url('/textures/paper-grain.svg') repeat; }
+button { font: inherit; }
+button:focus-visible, a:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }

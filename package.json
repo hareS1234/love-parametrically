@@ -1,0 +1,48 @@
+{
+  "name": "love-parametrically",
+  "version": "1.0.0",
+  "description": "Draw each stem, shape its petals, and send the bouquet as a file.",
+  "homepage": "https://hares1234.github.io/love-parametrically/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hareS1234/love-parametrically.git"
+  },
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "predev": "npm run worker:build",
+    "dev": "vite --host 127.0.0.1 --port 5173",
+    "worker:build": "node scripts/build-worker.mjs",
+    "assets:verify": "node scripts/verify-assets.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "pretest:e2e": "npm run build",
+    "test:e2e": "playwright test",
+    "prebuild": "npm run worker:build && npm run assets:verify",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "release": "node scripts/package-release.mjs"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "1.0.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/node": "26.4.1",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.1",
+    "esbuild": "0.28.2",
+    "fflate": "0.8.3",
+    "jsdom": "28.1.0",
+    "typescript": "7.0.2",
+    "vite": "8.2.2",
+    "vitest": "5.0.0"
+  }
+}

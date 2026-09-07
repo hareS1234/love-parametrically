@@ -1,0 +1,10 @@
+node_modules/
+dist/
+playwright-report/
+test-results/
+.DS_Store
+*.zip
+release-staging/
+output/
+.playwright-cli/
+*.local.md

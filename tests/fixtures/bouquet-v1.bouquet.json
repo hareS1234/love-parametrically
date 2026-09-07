@@ -1,0 +1,15 @@
+{
+  "format": "love-parametrically",
+  "schemaVersion": 1,
+  "geometryVersion": "botanical-v1",
+  "randomVersion": "mulberry32-v1",
+  "id": "bouquet-e2e-gift",
+  "createdAt": "2026-09-05T12:00:00.000Z",
+  "palette": "late-summer",
+  "flowers": [
+    { "id": "flower-e2e-cosmos", "seed": 41234123, "species": "cosmos", "stem": [[512,640],[470,520],[438,392],[450,270]], "bloomRotation": 0.18, "bloomAspect": 0.94, "sizeMultiplier": 1, "order": 0 },
+    { "id": "flower-e2e-rose", "seed": 98761234, "species": "wild-rose", "stem": [[512,640],[535,530],[565,410],[590,305]], "bloomRotation": -0.22, "bloomAspect": 0.93, "sizeMultiplier": 1.04, "order": 1 },
+    { "id": "flower-e2e-chamomile", "seed": 77221155, "species": "chamomile", "stem": [[512,640],[505,548],[500,455],[510,355]], "bloomRotation": 0.09, "bloomAspect": 0.9, "sizeMultiplier": 0.96, "order": 2 }
+  ],
+  "dedication": { "to": "Mara", "from": "June", "note": "Hope this makes your desk nicer.", "displayDate": "2026-09-05" }
+}
