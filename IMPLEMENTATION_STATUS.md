@@ -156,6 +156,7 @@ Completed:
 - Stayed below the 35 MiB target.
 - Added an automatic GitHub Pages release from the `main` branch.
 - Kept the hosted build under the same local-only runtime rules.
+- Published the app at `https://hares1234.github.io/love-parametrically/`.
 
 Checked:
 
@@ -164,6 +165,10 @@ Checked:
 - A clean extracted copy completed the keyboard creation and finish flow.
 - The release smoke test made loopback requests only.
 - The project prose passed the style scan.
+- The GitHub Pages workflow passed with Node 24.
+- The public HTTPS page served the app, worker, hand model, font, texture, manifest, and WebAssembly files.
+- The public WebAssembly response used `application/wasm`.
+- The public keyboard flow created one flower and reached the final print screen.
 
 ## Checks run
 
@@ -189,6 +194,8 @@ The project asks for Node 24. This host only supplied Node 22. `npm ci` complete
 | `npm run release` | Created the 16.69 MiB ZIP. |
 | Extracted ZIP checks | 21 checksums and the local browser smoke passed. |
 | Project prose scan | No em dashes, contrast slogans, or question-style headings found. |
+| GitHub Pages workflow | Typecheck, unit tests, build, and deployment passed with Node 24. |
+| Public HTTPS smoke | Runtime assets returned 200. Keyboard creation and finish passed. |
 
 Automated coverage includes:
 
