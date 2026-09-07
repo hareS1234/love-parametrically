@@ -152,7 +152,7 @@ Completed:
 - Rewrote project notes and interface copy in short, plain sentences.
 - Kept the working brief and generated test reports out of the repository and release.
 - Built `love-parametrically-v1.0.0.zip`.
-- Packed 23 files into a 17.01 MiB archive.
+- Packed 22 files into a 16.69 MiB archive.
 - Stayed below the 35 MiB target.
 - Added an automatic GitHub Pages release from the `main` branch.
 - Kept the hosted build under the same local-only runtime rules.
@@ -160,7 +160,7 @@ Completed:
 Checked:
 
 - The production app passed from `/love-parametrically/`.
-- All 22 packaged checksums passed after extraction.
+- All 21 packaged checksums passed after extraction.
 - A clean extracted copy completed the keyboard creation and finish flow.
 - The release smoke test made loopback requests only.
 - The project prose passed the style scan.
@@ -186,8 +186,8 @@ The project asks for Node 24. This host only supplied Node 22. `npm ci` complete
 | `npm run test` | 8 files passed. 42 tests passed. |
 | `npm run test:e2e` | 13 Playwright tests passed. |
 | `npm run build` | Production build passed. |
-| `npm run release` | Created the 17.01 MiB ZIP. |
-| Extracted ZIP checks | 22 checksums and the local browser smoke passed. |
+| `npm run release` | Created the 16.69 MiB ZIP. |
+| Extracted ZIP checks | 21 checksums and the local browser smoke passed. |
 | Project prose scan | No em dashes, contrast slogans, or question-style headings found. |
 
 Automated coverage includes:
