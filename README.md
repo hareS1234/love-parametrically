@@ -1,6 +1,6 @@
 # Love, Parametrically
 
-Hello! This is a small website for drawing each stem, shaping its petals, and sending the finished bouquet as a file.
+Hello! This is a small valentine's day project for me :) I coded it a couple years ago, and am now uploading to my gihub! Youcan draw each stem, shape its petals, and send the finished bouquet as a file.
 
 Every flower keeps its curve, seed, petal width, turn, and size as numbers. A saved recipe grows the same bouquet again. Everything runs on your device.
 
