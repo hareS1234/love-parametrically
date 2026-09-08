@@ -6,8 +6,6 @@ Every flower keeps its curve, seed, petal width, turn, and size as numbers. A sa
 
 Use it online at [hares1234.github.io/love-parametrically](https://hares1234.github.io/love-parametrically/).
 
-![The Love, Parametrically landing page](docs/screenshots/landing-1440x900.png)
-
 ## A quick start
 
 Use Node.js 24 or newer.
